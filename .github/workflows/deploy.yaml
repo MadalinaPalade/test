@@ -7,7 +7,7 @@ on:
 
 env:
   ECR_REPOSITORY: test-eks
-  EKS_CLUSTER_NAME: k8s-final
+  EKS_CLUSTER_NAME: testing-eks-cluster
   AWS_REGION: us-west-2
 
 jobs:
