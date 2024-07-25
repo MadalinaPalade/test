@@ -13,7 +13,7 @@ spec:
         app: test
     spec:
       containers:
-        - name: test-eks
+        - name: testing-eks-cluster
           image: 008971659622.dkr.ecr.us-west-2.amazonaws.com/test-eks:latest
           ports:
             - containerPort: 8080
