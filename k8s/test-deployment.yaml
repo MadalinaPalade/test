@@ -13,7 +13,7 @@ spec:
         app: test
     spec:
       containers:
-        - name: k8s-final
-          image: https://87060C97EBF146FA438D9E0335EA8300.gr7.us-west-2.eks.amazonaws.com
+        - name: 
+          image: 008971659622.dkr.ecr.us-west-2.amazonaws.com/test-eks:latest
           ports:
             - containerPort: 8080
