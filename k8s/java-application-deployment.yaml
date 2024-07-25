@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-application
+  name: test
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: java-application
+      app: test
   template:
     metadata:
       labels:
-        app: java-application
+        app: test
     spec:
       containers:
-        - name: java-application
-          image: 008971659622.dkr.ecr.us-west-2.amazonaws.com/test-eks
+        - name: k8s-final
+          image: https://87060C97EBF146FA438D9E0335EA8300.gr7.us-west-2.eks.amazonaws.com
           ports:
             - containerPort: 8080
